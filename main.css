@@ -1,24 +1,41 @@
 body {
-    background-color:rgb(218, 250, 250)
+    background-color:#EFF3F4
 }
 body {font-family: 'Reenie Beanie', cursive;
 }
-.box{
-    width: 100px;
-    height: 100px;
-}
-
-.blue{
-    background:rgb(60, 115, 179);
+.pink{
+    background:#F4A9E2;
 }
 .yellow{
-    background:rgb(235, 238, 39);
+    background:#F9F4B0;
 }
 .green{
-    background:#7add7a;
+    background:#CBEB9E;
 }
-
 .grid{
     height: 300px;
     width: 300px;
+}
+.box{
+    width:100px;
+    height:100px;
+    float: left;
+}
+.orange{
+    background:#FBDAB4;
+}
+.purple{
+    background:#D4C2F8;
+}
+.red{
+    background: #EF8F8F;
+}
+.bluee{
+    background:#9ECAEB;
+}
+.yellow{
+    background:#E8EB9E;
+}
+.blue{
+    background: #9EE1EB;
 }
