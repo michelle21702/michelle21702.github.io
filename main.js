@@ -1,8 +1,10 @@
 
-window.prompt('What is your favorite color?')
-window.prompt('Give an adjective that describes yourself ')
+let feeling = document.getElementById('feeling')
+feeling.innerText=window.prompt('What is your feeling?')
 
-let element = document.getElementById('content');
-element.innerText = window.prompt('What is your name');
-document.getElementById('What is your favorite color?');
-
+let button = document.getElementById('change-creation-button');
+function changecreation() {
+    let creation = document.getElementById('creation');
+    creation.innerText=window.prompt('What is your creation?');
+}
+button.onclick=changecreation;
